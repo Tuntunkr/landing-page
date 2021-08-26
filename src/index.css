@@ -45,7 +45,7 @@ nav {
   top: 0;
   width: 100%;
   z-index: 1;
-  background-color: transparent;
+  /* background-color: transparent; */
   transition: 0.6s ease-in-out;
 }
 nav.active {
@@ -369,7 +369,7 @@ nav .menu-btn,
 }
 .contact-input input {
   width: 100%;
-  background-color: transparent;
+  /* background-color: transparent; */
   border: none;
   outline: none;
   text-align: center;
@@ -547,9 +547,7 @@ nav .menu-btn,
   nav .menu-icon .nav-icon:after {
     top: -5px;
   }
-  nav .menu-btn:checked ~ .menu-icon .nav-icon {
-    background: transparent;
-  }
+  
   nav .menu-btn:checked ~ .menu-icon .nav-icon:before {
     transform: rotate(-45deg);
     top: 0;
