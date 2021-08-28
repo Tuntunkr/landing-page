@@ -10,11 +10,13 @@ function Feature() {
       <div className="a-container">
         <FeatureBox
           image={Featureimage}
+          alt=""
           title="What Is Cryptocurrency?"
-          paragraph= " Cryptocurrency takes the form of digital assets Buyers use money to buy assets (or a part of a asset)"
+          paragraph=" Cryptocurrency takes the form of digital assets Buyers use money to buy assets (or a part of a asset)"
         />
         <FeatureBox
           image={Featureimage1}
+          alt=""
           title="How Does It Work?"
           paragraph="Transactions are verified using Blockchain Blockchain transactions are decentralized,
 
@@ -22,6 +24,7 @@ function Feature() {
         />
         <FeatureBox
           image={Featureimage2}
+          alt=""
           title="Cryptocurrency is digital money."
           paragraph=" Because it’s purely digital, there are no physical coins or
                 bills tied to it."

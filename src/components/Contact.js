@@ -8,7 +8,7 @@ function Contact() {
    
       <div className="contact-input">
       <input type="mail" placeholder="exaple@gmail.com"/>
-      <a href="#"> Contact</a>
+      <a href="/"> Contact</a>
 
       </div>    
     </div>

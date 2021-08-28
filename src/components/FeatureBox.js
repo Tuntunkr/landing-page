@@ -4,7 +4,7 @@ function FeatureBox(props) {
     return (
         <div className="a-box">
         <div className="a-b-img">
-        <img src={props.image}/>
+        <img src="../images/feature_1.png" alt="" />
 
 
         </div>
